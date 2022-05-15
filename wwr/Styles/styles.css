@@ -1,0 +1,53 @@
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+body{
+    background-color: 45CB85 ;  
+}
+
+header{
+    background-color: 483519;
+}
+
+nav a {
+    text-align: center;
+}
+
+nav a:hover{
+    background-color: 8e5572;
+}
+
+#hero-msg h1, #hero-msg h4{
+    text-align: center;
+}
+
+.button-box{
+    text-align: center;
+}
+
+main section{
+    text-align: center;
+}
+
+#background{
+    height: 725px;
+}
+
+.book, .join{
+    background-color: 45CB85;
+}
+.book:hover, .join:hover{
+    background-color: 8e5572;
+}
+
+.msg{
+    background-color: 45CB85;
+}
+
+footer{
+    background-color: 483519;
+}
+
+

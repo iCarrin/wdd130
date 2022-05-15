@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    background-color: #fca6c9; 
+    width: 50%;
+    margin: 0 25%;
+}
+
+h1:hover{
+    color:black;
+}
+
+p.openers, p.quote{
+    font-family: serif;
+}
+
+section p{
+    color: black;
+    text-align: left;
+    font-weight: bold;
+    font-size: .8em;
+    display: block
+    
+}
+img {
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+} 
+
+p.quote {
+    font-size: 2em;
+    display: block;
+    margin: 0 15%;
+}
+
+footer{
+    color: black;
+    font-size: .8em;
+}
+
+footer p {
+    
+}
