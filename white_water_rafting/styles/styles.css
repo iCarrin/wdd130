@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Roboto:wght@100&display=swap');
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -5,21 +6,38 @@
 
 body{
     background-color: white ;  
+    font-family: Roboto;
+    font-size:22px;
+    margin: 0;
+    padding: 0;
 }
 
 header{
     background-color: #45CB85;
+
 }
 
+h2 {
+    margin: 0;
+}
+
+.home_title, .msg h2{
+    font-family: Bangers;
+    font-size: 2em;
+}
 nav a {
     text-align: center;
     color: black;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover{
     background-color: #8e5572;
     color: black;
+}
+#logo_link {
+    padding-top: 5px;
 }
 
 .logo{
@@ -28,6 +46,7 @@ nav a:hover{
 
 .home_title{
     color: black;
+    margin-top: 10px;
 }
 
 h4{
@@ -50,28 +69,43 @@ main section{
     text-align: center;
 }
 
+main section img {
+    box-sizing:border-box;
+}
+
 #background{
     height: 725px;
 }
-
 .book{
     background-color: white;
+}
+.book .join{
+    font-size: 18px;
     color: black;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }    
 
 .join{
     background-color: #45CB85;
-    color: black;
-    text-decoration: none;
 }
 .book:hover, .join:hover{
     background-color: #8e5572;
-    color: black;
 }
 
 .icon{
     width: 80px;
+    padding-top: 10px;
+}
+
+.card_img {
+    border: 10px solid #8e5572;
+}
+
+.rives_card, .camping_card, .rapids_card {
+    margin-top: 200px 0;
 }
 
 .msg h2{
@@ -80,11 +114,14 @@ main section{
 
 .msg p{
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 .msg{
     background-color: #45CB85;
-
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer h3{
@@ -104,6 +141,11 @@ footer a:hover{
 
 footer{
     background-color: #45CB85;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
+footer .social img{
+    padding-top: 15px;
+}
 
