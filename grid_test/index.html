@@ -4,10 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/styles.csss">
     <title>Document</title>
 </head>
 <body>
+    <style>
+            .home-grid {
+        display: gird;
+        grid-template: 1fr 1fr 1fr;
+        grid-gap:40px;
+        }
+        img {
+            grid-column: 1/3;
+            grid-row: 1/2;
+        }
+        h1{
+            grid-column: 1/3;
+            grid-row: 1/2;
+            z-index: 1;
+            align-self: center;
+        }
+        aside{
+            grid-column: 3/4;
+            grid-row: 1/3;
+        }
+
+        *{
+            border: 2px solid black;
+        }
+    </style>
     <div class="home-grid">
         <img class="path_video" autoplay muted src="images/oar deal.png">
         <h1 class="path_title">Path to the Beach</h1>
