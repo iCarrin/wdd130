@@ -276,3 +276,42 @@ footer .social img{
         margin-top: 25px;
     }
 }
+
+
+
+
+#trip-dates{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+#price-title{
+    grid-column: 1/4;
+    align-items: center;
+    padding: 300px 0px 300px 0px;
+    height: 200px;
+}
+#price-title h1{
+    text-align: center;
+    text-justify: auto;
+}
+#gc3{
+    grid-column: 1/2;
+    
+}
+#gc6{
+    grid-column: 2/4;
+    
+}
+#sr5{
+    grid-column: 1/2;
+    
+}
+#dr6{
+    grid-column: 2/4;
+    
+}
+.calendar-holder{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
