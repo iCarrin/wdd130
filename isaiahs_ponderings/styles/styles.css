@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+body{
+    margin: 10px auto;
+    background-color: E5E5E5;
+    font-family: Lato, Helvetica, sans-serif;
+}
+
+header {
+    height: 120px;
+    background-color: #27476E;
+    display: grid;
+    grid-template-columns: 170px auto;
+}
+header img {
+    justify-self: center;
+    align-self: center;
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+}
+.link-space {
+    display: flex;
+    justify-content: space-around;
+    height: 120px;
+    align-items: center;
+    
+}
+a {
+    background-color: #006992;
+    padding: 1em;
+    align-self: center;
+    margin: auto;
+    color: #E5E5E5;
+    font-family: "IM Fell French Canon SC";
+}
+#intro {
+    font-family: lato;
+    padding: 10px 20px;
+    margin: 20px 40px;
+}
+aside {
+    float:right;
+    height: 600px;
+    width: 300px;
+    border: solid 10px #006992;
+    background-color: #27476E;
+    display: grid;
+    grid-area:  1fr/ 1fr 1fr 1fr 1fr 
+}
+#article-container {
+    display: grid;
+    grid-template-rows: 400px 400px 400px 400px;
+    padding: 30px;
+    grid-template-columns: 1fr;
+}
+.article-front-page {
+    display: grid;
+    grid-template-columns: 400px 1fr;   
+    height: fit-content;
+}
+.article-front-page img{
+    height: 350px;
+    width: 350px;
+    margin:30px;  
+    object-fit: cover;
+}
+.article-front-page p{
+    height: 350px;
+    text-overflow: ellipsis;
+    margin:30px;  
+}
+.article-front-page-2 {
+    display: grid;
+    grid-template-columns: 1fr 400px;   
+    height: fit-content;
+   
+}
+.article-front-page-2 img{
+    height: auto;
+    width: 370px;
+    margin:30px;  
+   
+    float: inline-end;
+    
+}
+.article-front-page-2 p{
+    height: 350px;
+    text-overflow: ellipsis;
+    margin:30px;  
+}
+footer {
+    height: 120px;
+    background-color: #27476E;
+    display: grid;
+    grid-template-columns: 170px 1fr 400px;
+}
+footer p {
+    align-self: center;
+    margin-left: 60px;
+    font-size:x-large ;
+}
+
+footer a img {
+    justify-self: center;
+    align-self: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+footer div a{
+    background-color: #27476E;
+
+}
+a:hover {
+    color: #E87121;
+}
