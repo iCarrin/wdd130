@@ -94,10 +94,20 @@ a {
     display: inline-block;
     padding: 8px 16px;
 }
-
 a:hover {
-background-color: #E87121;
-color: #006992;
+    background-color: #E87121;
+    color: #006992;
+    }
+.float-img-r {
+    
+    float: right;
+    width:500px;
+    margin: 50px 50px 50px auto;
+    
+}
+.artic-header{
+    width: 100%;
+    margin: 20px 70px 50px 70px;
 }
 #back-forward-buttons{
     width: 100%;
