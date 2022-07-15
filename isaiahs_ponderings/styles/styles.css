@@ -48,7 +48,7 @@ aside {
     border: solid 10px #006992;
     background-color: #27476E;
     display: grid;
-    grid-area:  1fr/ 1fr 1fr 1fr 1fr 
+    grid-area:  1/ 1 1 1 1; 
 }
 #article-container {
     display: grid;
