@@ -55,6 +55,7 @@ aside {
     grid-template-rows: 400px 400px 400px 400px;
     padding: 30px;
     grid-template-columns: 1fr;
+    height: fit-content;
 }
 .article-front-page {
     display: grid;
@@ -62,13 +63,13 @@ aside {
     height: fit-content;
 }
 .article-front-page img{
-    height: 350px;
+    height: fi;
     width: 350px;
     margin:30px;  
     object-fit: cover;
 }
 .article-front-page p{
-    height: 350px;
+    height: fit-content;
     text-overflow: ellipsis;
     margin:30px;  
 }
@@ -87,7 +88,7 @@ aside {
     
 }
 .article-front-page-2 p{
-    height: 350px;
+    height: fit-content;
     text-overflow: ellipsis;
     margin:30px;  
 }
