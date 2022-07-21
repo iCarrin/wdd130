@@ -12,6 +12,7 @@ header {
     background-color: #27476E;
     display: grid;
     grid-template-columns: 170px auto;
+    margin-bottom: 10px;
 }
 header img {
     justify-self: center;
@@ -36,10 +37,14 @@ a {
     font-family: "IM Fell French Canon SC";
     font-size: x-large;
 }
-#intro {
+.intro {
     font-family: lato;
     padding: 10px 20px;
-    margin: 20px 40px;
+    margin: 0px 250px 0px 250px;
+    background-color: #E87121;
+    color: #E5E5E5;
+    font-size: 1.2em;
+    text-align: center;
 }
 aside {
     float:right;
@@ -49,6 +54,7 @@ aside {
     background-color: #27476E;
     display: grid;
     grid-area:  1/ 1 1 1 1; 
+    margin-top: 30px;
 }
 #article-container {
     display: grid;
