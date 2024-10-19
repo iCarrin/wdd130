@@ -158,7 +158,7 @@ footer {
     grid-template-columns: 170px 1fr 400px;
     
 }
-footer p {
+#footer_p {
     align-self: center;
     margin-left: 60px;
     font-size:x-large ;
