@@ -156,13 +156,13 @@ footer {
     background-color: #27476E;
     display: grid;
     grid-template-columns: 170px 1fr 400px;
-    color: #E5E5E5;
+    
 }
 footer p {
     align-self: center;
     margin-left: 60px;
     font-size:x-large ;
-    
+    color: #E5E5E5;
 }
 .wireframe-link{
     margin: auto auto auto 6em;
